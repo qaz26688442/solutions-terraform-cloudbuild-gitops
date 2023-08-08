@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "eternal-centaur-393301-tfstate"
     prefix = "env/prod"
   }
 }
